@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document
       .getElementById("recordCount")
       .setAttribute("class", "btn btn-success");
-  }, 2000);
+  });
 });
 
 const showRecordCountListener = function (chartItems) {
